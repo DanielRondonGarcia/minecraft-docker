@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  mc:
+    container_name: walkercraft
+    image: itzg/minecraft-server:java8
+    ports:
+      - 25565:25565
+    environment:
+      EULA: "TRUE"
+      TYPE: "FORGE"
+      VERSION: 1.19.2
+      MODS_FILE: /extras/mods.txt
+      REMOVE_OLD_MODS: "true"
+      DIFFICULTY: "hard"
+      MOTD: "First Peaceful World"
+      # https://github.com/itzg/docker-minecraft-server#memory-limit
+      MEMORY: 2G
+      # uncomment this to import a saved game. (put your savegame directory in the saves-to-import directory)
+      WORLD: "/worlds/MyWorld"
+    tty: true
+    stdin_open: true
+    restart: unless-stopped    
+    volumes:
+      - ./minecraft-data:/data
+      - ./mods.txt:/extras/mods.txt:ro
+
+volumes:
+  data:
