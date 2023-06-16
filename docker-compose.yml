@@ -1,0 +1,63 @@
+version: '3'
+
+services:
+  mc:
+    image: itzg/minecraft-server
+    environment:
+      EULA: "true"
+      TYPE: "FORGE"
+      DEBUG: "true"
+      MEMORY: "7G"
+      DIFFICULTY: "hard"
+      MAX_PLAYERS: "10"
+      MOTD: "A §l§cMinecraft para§r §naja"
+      FORGE_VERSION: "46.0.14"
+      VERSION: "1.20"
+      FORGE_FORCE_REINSTALL: "false"
+      ONLINE_MODE: "false"
+      VIEW_DISTANCE: "10"
+      ENTITY_BROADCAST_RANGE_PERCENTAGE: "100"
+    ports:
+      - "25565:25565"
+    volumes:
+      - ./data:/data
+  monitor:
+    image: itzg/mc-monitor
+    command: export-for-prometheus
+    environment:
+      EXPORT_SERVERS: mc
+      DEBUG: "true"
+    depends_on:
+      - mc
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor
+    ports:
+      - "8180:8080"
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:rw
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+  prometheus:
+    image: prom/prometheus
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus-tsdb:/prometheus
+    depends_on:
+      - monitor
+  grafana:
+    image: grafana/grafana-oss:${GRAFANA_VERSION:-8.3.3}
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana-lib:/var/lib/grafana
+      - ./grafana/provisioning:/etc/grafana/provisioning
+      - ./dashboards:/etc/grafana/dashboards
+    depends_on:
+      - prometheus
+
+
+volumes:
+  mc-data: {}
+  prometheus-tsdb: {}
+  grafana-lib: {}
