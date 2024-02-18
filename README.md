@@ -1,7 +1,7 @@
 # Un comando despliega Minecraft con Monitor usando Grafana
 
 Requerimientos:
-    - Si ya tienes una copia de seguridad, solo asegurate de restaurar el volumen o hacer un volumen bind en el docker-compose.
+    - Si ya tienes una copia de seguridad, solo asegúrate de restaurar el volumen o hacer un volumen bind en el docker-compose.
 
 ```shell
 docker-compose up -d
@@ -22,3 +22,7 @@ Utiliza `docker exec mc mc-send-to-console` para ejecutar un comando, por ejempl
 ```shell
 docker exec mc mc-send-to-console /time set day
 ```
+
+## Mods
+
+Si deseas instalar mods, puedes hacerlo en el directorio `./mods` y luego reiniciar el contenedor `mc` con `docker-compose restart mc`.

@@ -6,10 +6,10 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '6'
+          cpus: '4'
           memory: 6000M
         reservations:
-          cpus: '6'
+          cpus: '4'
           memory: 6000M
     environment:
       EULA: "true"
@@ -18,9 +18,9 @@ services:
       MEMORY: "6G"
       DIFFICULTY: "hard"
       MAX_PLAYERS: "10"
-      MOTD: "A §l§cMinecraft para§r §naja"
-      FORGE_VERSION: "46.0.14"
-      VERSION: "1.20"
+      MOTD: "Minecraft Rondón"
+      FORGE_VERSION: "47.2.18"
+      VERSION: "1.20.1"
       FORGE_FORCE_REINSTALL: "false"
       ONLINE_MODE: "false"
       VIEW_DISTANCE: "10"
