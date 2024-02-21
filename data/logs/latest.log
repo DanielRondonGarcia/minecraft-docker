@@ -1,0 +1,797 @@
+[21Feb2024 03:23:12.052] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.18, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[21Feb2024 03:23:12.055] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Eclipse Adoptium; OS Linux arch amd64 version 5.15.0-1049-oracle
+[21Feb2024 03:23:12.633] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[21Feb2024 03:23:12.669] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/data/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[21Feb2024 03:23:12.862] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /data/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.18/fmlcore-1.20.1-47.2.18.jar is missing mods.toml file
+[21Feb2024 03:23:12.863] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /data/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.18/javafmllanguage-1.20.1-47.2.18.jar is missing mods.toml file
+[21Feb2024 03:23:12.863] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /data/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.18/lowcodelanguage-1.20.1-47.2.18.jar is missing mods.toml file
+[21Feb2024 03:23:12.864] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /data/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.18/mclanguage-1.20.1-47.2.18.jar is missing mods.toml file
+[21Feb2024 03:23:12.980] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[21Feb2024 03:23:12.982] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 4 dependencies adding them to mods collection
+[21Feb2024 03:23:14.364] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[21Feb2024 03:23:14.450] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[21Feb2024 03:23:14.493] [main/INFO] [Puzzles Lib/]: Loading 31 mods:
+	- athena 3.1.1
+	- balm 7.2.1
+	- bettertridents 8.0.1
+	- bookshelf 20.1.9
+	- citadel 2.5.3
+	- enchdesc 17.0.13
+	- fabledweaponry 1.20.1-1.0.7.1
+	- forge 47.2.18
+	- glued 1.0
+	- iceandfire 2.1.13-1.20.1-beta-4
+	- illagerinvasion 8.0.4
+	- insanetnt 1.4
+	- jei 15.2.0.27
+	- journeymap 5.9.18
+	- minecraft 1.20.1
+	- mixinextras 0.2.2
+	- mobplaques 8.0.1
+	- moonlight 1.20-2.9.7
+	- mr_camps_castles_carriages 2.2
+	- mutil 6.1.1
+	- ping 1.10.1
+	- puzzlesaccessapi 8.0.7
+	- puzzleslib 8.1.16
+	- securitycraft 1.9.8
+	- smarterfarmers 1.20-1.8.1
+	- sophisticatedbackpacks 3.20.1.1012
+	- sophisticatedcore 0.6.3.553
+	- the_bumblezone 7.2.10+1.20.1-forge
+	- tombstone 8.6.0
+	- tradingpost 8.0.2
+	- waystones 14.1.3
+[21Feb2024 03:23:15.665] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.2).
+[21Feb2024 03:23:20.421] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mobplaques:main
+[21Feb2024 03:23:20.473] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for illagerinvasion:main
+[21Feb2024 03:23:20.559] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[21Feb2024 03:23:20.559] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[21Feb2024 03:23:20.559] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[21Feb2024 03:23:20.559] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[21Feb2024 03:23:20.559] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[21Feb2024 03:23:20.559] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[21Feb2024 03:23:20.559] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[21Feb2024 03:23:20.567] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for bettertridents:main
+[21Feb2024 03:23:20.653] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[21Feb2024 03:23:20.694] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for tradingpost:main
+[21Feb2024 03:23:20.695] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.18, for MC 1.20.1 with MCP 20230612.114412
+[21Feb2024 03:23:20.697] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.18 Initialized
+[21Feb2024 03:23:21.772] [main/INFO] [Moonlight/]: Initialized block sets in 8ms
+[21Feb2024 03:23:22.247] [main/INFO] [Puzzles Lib/]: Loading common config for bettertridents
+[21Feb2024 03:23:22.417] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mobplaques] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/mobplaques.json
+[21Feb2024 03:23:22.549] [main/INFO] [journeymap/]: Initializing Packet Registries
+[21Feb2024 03:23:22.565] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mobplaques] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[21Feb2024 03:23:22.565] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
+[21Feb2024 03:23:22.597] [main/INFO] [Moonlight/]: Initialized color sets in 29ms
+[21Feb2024 03:23:23.185] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 17.0.13 Target: 17.0.13
+[21Feb2024 03:23:23.185] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[21Feb2024 03:23:23.190] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.9.7 Target: null
+[21Feb2024 03:23:23.191] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [illagerinvasion] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/illagerinvasion.json
+[21Feb2024 03:23:23.195] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [illagerinvasion] Found status: UP_TO_DATE Current: 8.0.4 Target: null
+[21Feb2024 03:23:23.195] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_camps_castles_carriages] Starting version check at https://api.modrinth.com/updates/h9XxzZxe/forge_updates.json
+[21Feb2024 03:23:23.618] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_camps_castles_carriages] Found status: OUTDATED Current: 2.2 Target: 2.2+mod
+[21Feb2024 03:23:23.618] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[21Feb2024 03:23:23.987] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.9.18 Target: null
+[21Feb2024 03:23:23.988] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[21Feb2024 03:23:24.217] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21Feb2024 03:23:24.663] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.8 Target: null
+[21Feb2024 03:23:24.664] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[21Feb2024 03:23:24.669] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.6.0 Target: 8.6.3
+[21Feb2024 03:23:24.669] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[21Feb2024 03:23:24.831] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.1.9 Target: 20.1.9
+[21Feb2024 03:23:24.831] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettertridents] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/bettertridents.json
+[21Feb2024 03:23:24.956] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bettertridents] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[21Feb2024 03:23:24.956] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[21Feb2024 03:23:24.960] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.16 Target: 8.1.17
+[21Feb2024 03:23:24.960] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[21Feb2024 03:23:24.964] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[21Feb2024 03:23:24.964] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[21Feb2024 03:23:25.306] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.18 Target: 47.2.20
+[21Feb2024 03:23:25.306] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tradingpost] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/tradingpost.json
+[21Feb2024 03:23:25.376] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/data/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/assets/.mcassetsroot' uses unexpected schema
+[21Feb2024 03:23:25.377] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/data/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23153!/data/.mcassetsroot' uses unexpected schema
+[21Feb2024 03:23:25.387] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tradingpost] Found status: UP_TO_DATE Current: 8.0.2 Target: null
+[21Feb2024 03:23:26.569] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag fabric:mineable/needs_tool_level_1 as it is missing following references: insanetnt:cystal_tnt (from Insane tnt 1.20.1 version 1.4.jar)
+[21Feb2024 03:23:27.033] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[21Feb2024 03:23:27.150] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2711 advancements
+[21Feb2024 03:23:28.212] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[21Feb2024 03:23:28.213] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[21Feb2024 03:23:28.213] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[21Feb2024 03:23:28.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[21Feb2024 03:23:28.326] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[21Feb2024 03:23:28.349] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[21Feb2024 03:23:28.423] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21Feb2024 03:23:28.423] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[21Feb2024 03:23:28.423] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21Feb2024 03:23:28.423] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[21Feb2024 03:23:28.435] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[21Feb2024 03:23:28.436] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[21Feb2024 03:23:28.436] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[21Feb2024 03:23:28.438] [Server thread/INFO] [Puzzles Lib/]: Loading server config for illagerinvasion
+[21Feb2024 03:23:28.439] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for illagerinvasion
+[21Feb2024 03:23:28.440] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for illagerinvasion
+[21Feb2024 03:23:28.441] [Server thread/INFO] [Puzzles Lib/]: Loading server config for bettertridents
+[21Feb2024 03:23:28.449] [Server thread/INFO] [Puzzles Lib/]: Loading server config for tradingpost
+[21Feb2024 03:23:28.450] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for tradingpost
+[21Feb2024 03:23:28.451] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for tradingpost
+[21Feb2024 03:23:28.531] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[21Feb2024 03:23:28.813] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class fuzs.bettertridents.world.entity.item.LoyalItemEntity from class fuzs.bettertridents.world.entity.item.LoyalExperienceOrb
+[21Feb2024 03:23:29.269] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[21Feb2024 03:23:30.219] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[21Feb2024 03:23:31.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[21Feb2024 03:23:31.386] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[21Feb2024 03:23:33.714] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Feb2024 03:23:33.744] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Feb2024 03:23:33.758] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Feb2024 03:23:33.770] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Feb2024 03:23:33.781] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Feb2024 03:23:34.448] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Feb2024 03:23:34.466] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Feb2024 03:23:34.859] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Feb2024 03:23:35.358] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Feb2024 03:23:35.792] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
+[21Feb2024 03:23:36.288] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4996 ms
+[21Feb2024 03:23:36.289] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.855s)! For help, type "help"
+[21Feb2024 03:23:36.289] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting remote control listener
+[21Feb2024 03:23:36.291] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener started
+[21Feb2024 03:23:36.291] [Server thread/INFO] [net.minecraft.server.rcon.thread.RconThread/]: RCON running on 0.0.0.0:8000
+[21Feb2024 03:23:36.316] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[21Feb2024 03:23:36.344] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[21Feb2024 03:23:36.344] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[21Feb2024 03:23:48.871] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: fabioxce[/190.84.227.28:51657] logged in with entity id 400 at (-580.0987761688107, 91.0, -1944.7534151770044)
+[21Feb2024 03:23:48.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabioxce joined the game
+[21Feb2024 03:23:50.239] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: RONDON98[/138.84.41.89:52231] logged in with entity id 401 at (-581.3111178309824, 92.0, -1947.050765425299)
+[21Feb2024 03:23:50.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RONDON98 joined the game
+[21Feb2024 03:24:12.738] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.3008757025392146
+[21Feb2024 03:24:15.237] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.7622499548145816
+[21Feb2024 03:24:16.742] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.7629807063110596
+[21Feb2024 03:24:16.879] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.7841689293332937
+[21Feb2024 03:24:18.024] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.8275817645040264
+[21Feb2024 03:24:18.928] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.8163394541611076
+[21Feb2024 03:24:19.537] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.8266663193676995
+[21Feb2024 03:24:21.535] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.7262882895555791
+[21Feb2024 03:24:21.939] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.7919255711000842
+[21Feb2024 03:24:22.836] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.6470276604409929
+[21Feb2024 03:24:23.131] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.6408178675931413
+[21Feb2024 03:24:39.529] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7617430223751421
+[21Feb2024 03:24:40.335] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7017726683782141
+[21Feb2024 03:24:41.236] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7835669634590968
+[21Feb2024 03:24:42.115] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7834352365776298
+[21Feb2024 03:24:42.142] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7834352365776298
+[21Feb2024 03:24:42.965] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7584678433596719
+[21Feb2024 03:24:44.527] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.746620345671239
+[21Feb2024 03:24:45.723] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.8228170251609318
+[21Feb2024 03:24:46.836] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.385525429708764
+[21Feb2024 03:24:47.123] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.8102990659622706
+[21Feb2024 03:24:48.523] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.4726581098872542
+[21Feb2024 03:24:48.527] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.26066104254401584
+[21Feb2024 03:24:49.115] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7500274317397944
+[21Feb2024 03:24:49.143] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7500274317397944
+[21Feb2024 03:24:49.175] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.6615241947945665
+[21Feb2024 03:24:49.179] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.6615241947945665
+[21Feb2024 03:24:49.227] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.5834643398088387
+[21Feb2024 03:24:50.635] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.2854708807010122
+[21Feb2024 03:24:51.533] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.734734176427998
+[21Feb2024 03:24:52.635] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.82436290445892
+[21Feb2024 03:24:52.781] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.2606069689880207
+[21Feb2024 03:24:53.960] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.8264047733847949
+[21Feb2024 03:24:54.534] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.645824379892244
+[21Feb2024 03:24:55.459] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.7815221633850021
+[21Feb2024 03:24:55.710] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.8140757121414929
+[21Feb2024 03:24:56.603] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.8166612695976496
+[21Feb2024 03:24:56.674] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.8290402580278352
+[21Feb2024 03:24:57.617] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.821708253255358
+[21Feb2024 03:24:57.626] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.821708253255358
+[21Feb2024 03:24:57.894] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.8304363025137639
+[21Feb2024 03:24:58.438] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.8291518890624562
+[21Feb2024 03:24:58.871] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.8305026395038236
+[21Feb2024 03:24:59.532] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.7191873544681977
+[21Feb2024 03:24:59.935] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7816919147384229
+[21Feb2024 03:25:01.137] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.621719399017561
+[21Feb2024 03:25:08.171] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.4395275623579726
+[21Feb2024 03:25:08.424] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.6218200107357227
+[21Feb2024 03:25:29.282] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.7805011032456187
+[21Feb2024 03:25:30.432] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.8262243463971007
+[21Feb2024 03:26:39.912] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.386700723950497
+[21Feb2024 03:26:39.936] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.386700723950497
+[21Feb2024 03:26:40.810] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.621580093481292
+[21Feb2024 03:26:40.836] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.621580093481292
+[21Feb2024 03:26:41.090] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.35460852656595815
+[21Feb2024 03:26:42.208] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7529198535648057
+[21Feb2024 03:26:42.217] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7529198535648057
+[21Feb2024 03:26:42.290] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.7191197369282663
+[21Feb2024 03:26:47.017] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.3797545142135732
+[21Feb2024 03:26:47.116] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.2952380375292023
+[21Feb2024 03:26:47.122] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.6332614101445415
+[21Feb2024 03:26:47.170] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.9347106625306196
+[21Feb2024 03:27:03.287] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.42157785161622807
+[21Feb2024 03:27:05.683] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.7976532095832785
+[21Feb2024 03:27:06.582] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.7307960520634672
+[21Feb2024 03:27:07.038] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.7959779093380068
+[21Feb2024 03:27:10.489] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.419952553681787
+[21Feb2024 03:27:14.339] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.31052064130357654
+[21Feb2024 03:27:16.337] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.3278816229805603
+[21Feb2024 03:27:17.290] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.7841515188772616
+[21Feb2024 03:27:17.986] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.8223132930820467
+[21Feb2024 03:27:18.993] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.8090800997149515
+[21Feb2024 03:27:19.587] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.8236855323648106
+[21Feb2024 03:27:20.240] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.690098258554327
+[21Feb2024 03:27:20.890] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.7767205943648744
+[21Feb2024 03:27:22.285] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.42976664956663463
+[21Feb2024 03:27:23.481] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.3233389620691014
+[21Feb2024 03:27:24.564] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.40304043677618523
+[21Feb2024 03:27:24.586] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.40304043677618523
+[21Feb2024 03:27:24.737] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.5709255555048679
+[21Feb2024 03:27:29.969] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.41938867144411157
+[21Feb2024 03:27:30.885] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.5938937298323061
+[21Feb2024 03:27:47.087] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.7640942849217301
+[21Feb2024 03:27:49.392] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.80032954782242
+[21Feb2024 03:27:50.938] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.8288106784498701
+[21Feb2024 03:27:52.792] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.38267517800910766
+[21Feb2024 03:27:53.836] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.35650695305904706
+[21Feb2024 03:27:54.322] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.6887476068750056
+[21Feb2024 03:27:54.340] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.6887476068750056
+[21Feb2024 03:28:04.040] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.5985017916566795
+[21Feb2024 03:28:04.987] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.778375410775683
+[21Feb2024 03:28:32.866] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: fabioxce moved wrongly!
+[21Feb2024 03:29:07.709] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7331624498507975
+[21Feb2024 03:29:07.739] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7331624498507975
+[21Feb2024 03:29:08.687] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.3096204192952713
+[21Feb2024 03:29:09.207] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.5622447662008498
+[21Feb2024 03:29:09.239] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.5622447662008498
+[21Feb2024 03:29:10.215] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.8074419025156085
+[21Feb2024 03:29:10.243] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.8074419025156085
+[21Feb2024 03:29:11.863] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.8301391692699834
+[21Feb2024 03:29:11.887] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.8301391692699834
+[21Feb2024 03:29:13.038] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.6560405430297722
+[21Feb2024 03:29:14.609] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7009500622471182
+[21Feb2024 03:29:14.643] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7009500622471182
+[21Feb2024 03:29:16.669] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.8163162689596996
+[21Feb2024 03:29:17.462] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.8285181009563708
+[21Feb2024 03:29:17.487] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.8285181009563708
+[21Feb2024 03:29:19.892] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.3886519725788381
+[21Feb2024 03:29:19.943] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.3966633501229517
+[21Feb2024 03:29:25.765] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.5930872531014021
+[21Feb2024 03:29:25.788] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.5930872531014021
+[21Feb2024 03:29:26.365] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7770343277376928
+[21Feb2024 03:29:27.912] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.730543624687748
+[21Feb2024 03:29:27.939] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.730543624687748
+[21Feb2024 03:29:27.941] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.730543624687748
+[21Feb2024 03:29:28.429] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7995553695467065
+[21Feb2024 03:29:30.151] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7624063374052242
+[21Feb2024 03:29:30.151] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7624063374052242
+[21Feb2024 03:29:30.667] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.5621721188187816
+[21Feb2024 03:29:31.920] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7538915106918151
+[21Feb2024 03:29:32.271] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.38703332317277833
+[21Feb2024 03:29:32.292] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.38703332317277833
+[21Feb2024 03:29:33.569] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7392231380454257
+[21Feb2024 03:29:33.592] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7392231380454257
+[21Feb2024 03:29:34.748] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.705759191032512
+[21Feb2024 03:29:34.882] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.7330852201663454
+[21Feb2024 03:29:36.070] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.5589584813997507
+[21Feb2024 03:29:36.180] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.5538044470408299
+[21Feb2024 03:29:39.114] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.4028188834317456
+[21Feb2024 03:29:39.895] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.5938394005198016
+[21Feb2024 03:29:44.413] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.38203271089202173
+[21Feb2024 03:29:45.814] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Yugi (vehicle of RONDON98) moved wrongly! 0.772455472746094
+[21Feb2024 03:29:46.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.48667856151814703
+[21Feb2024 03:29:46.782] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 1.2216326674401898
+[21Feb2024 03:29:46.841] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 1.634284206614666
+[21Feb2024 03:29:46.912] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.43278602042073544
+[21Feb2024 03:30:24.060] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAmphithere['Yugi'/407, l='ServerLevel[world]', x=-740.50, y=63.00, z=-2239.73] died: Yugi was slain by Amphithere
+[21Feb2024 03:30:35.662] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.6923256611958697
+[21Feb2024 03:30:35.691] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.6923256611958697
+[21Feb2024 03:30:36.460] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.6885260276683226
+[21Feb2024 03:30:52.590] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.27812974859753353
+[21Feb2024 03:31:12.007] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.42121321142609436
+[21Feb2024 03:31:14.410] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.4115363054437248
+[21Feb2024 03:31:14.493] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.4184704227466046
+[21Feb2024 03:31:14.591] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.4196074730633182
+[21Feb2024 03:31:14.640] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.4194004819727835
+[21Feb2024 03:31:15.293] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.3008641247679812
+[21Feb2024 03:31:15.490] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.41134251779809883
+[21Feb2024 03:31:15.544] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.41606335902589014
+[21Feb2024 03:31:15.991] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.35986386911605595
+[21Feb2024 03:31:16.062] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.38834880251388454
+[21Feb2024 03:31:16.086] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.38834880251388454
+[21Feb2024 03:31:16.357] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.3834586636698708
+[21Feb2024 03:31:16.391] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.7846084287111054
+[21Feb2024 03:31:16.436] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.2977621298591657
+[21Feb2024 03:31:16.505] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.4157273857395455
+[21Feb2024 03:31:16.530] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.4157273857395455
+[21Feb2024 03:31:16.805] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.3918973719120654
+[21Feb2024 03:31:16.843] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.6015938420314183
+[21Feb2024 03:31:18.090] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.3557910787006823
+[21Feb2024 03:31:18.210] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.380633485488026
+[21Feb2024 03:31:19.737] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.40025519675198723
+[21Feb2024 03:31:21.058] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.7482601513003204
+[21Feb2024 03:31:23.257] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.32358282771058816
+[21Feb2024 03:31:23.307] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.37686370667756974
+[21Feb2024 03:31:23.437] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.49313128816154345
+[21Feb2024 03:31:23.490] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.48724600168538806
+[21Feb2024 03:31:23.591] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.4691717871835884
+[21Feb2024 03:31:23.642] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.42389972999741643
+[21Feb2024 03:31:23.969] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.28981593472893535
+[21Feb2024 03:31:24.358] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.26067227602683213
+[21Feb2024 03:31:24.391] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.5885834897784014
+[21Feb2024 03:31:24.485] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.4394639375795942
+[21Feb2024 03:31:24.641] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.5617212822741352
+[21Feb2024 03:31:24.755] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.6210768733112306
+[21Feb2024 03:32:28.056] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.3870111645140803
+[21Feb2024 03:32:28.890] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.4395073951400188
+[21Feb2024 03:33:08.368] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.6826770472261808
+[21Feb2024 03:33:08.392] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.6826770472261808
+[21Feb2024 03:33:11.310] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.3923685489824327
+[21Feb2024 03:33:42.383] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.5822813131719261
+[21Feb2024 03:33:43.918] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.48069668375651264
+[21Feb2024 03:33:43.933] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.48069668375651264
+[21Feb2024 03:33:46.773] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.2558798881130478
+[21Feb2024 03:33:49.355] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.6629131575231366
+[21Feb2024 03:33:58.367] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.29897221648960987
+[21Feb2024 03:33:59.613] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.6520706049630781
+[21Feb2024 03:33:59.636] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.6520706049630781
+[21Feb2024 03:34:07.043] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.670810988508864
+[21Feb2024 03:34:11.514] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.43620910419504727
+[21Feb2024 03:34:11.543] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.43620910419504727
+[21Feb2024 03:34:11.914] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Simon (vehicle of fabioxce) moved wrongly! 0.43951644629262104
+[21Feb2024 03:34:12.616] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAmphithere['Simon'/408, l='ServerLevel[world]', x=-912.86, y=80.56, z=-2173.31] died: Simon was shot by Skeleton
+[21Feb2024 03:34:13.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabioxce was energized by Lightning Dragon
+[21Feb2024 03:34:13.386] [Server thread/INFO] [tombstone/]: The player fabioxce has successfully been saved
+[21Feb2024 03:34:54.408] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /127.0.0.1 started
+[21Feb2024 03:35:06.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Teleported fabioxce to RONDON98]
+[21Feb2024 03:35:46.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <RONDON98> zzz
+[21Feb2024 03:36:37.409] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[21Feb2024 03:36:39.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabioxce was struck with lightning by Lightning Dragon
+[21Feb2024 03:36:39.064] [Server thread/INFO] [tombstone/]: The player fabioxce has successfully been saved
+[21Feb2024 03:37:43.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RONDON98 was slain by Lightning Dragon
+[21Feb2024 03:37:43.566] [Server thread/INFO] [tombstone/]: The player RONDON98 has successfully been saved
+[21Feb2024 03:37:45.472] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/320, l='ServerLevel[world]', x=107.14, y=81.00, z=-18.58] died, message: 'Librarian hit the ground too hard'
+[21Feb2024 03:38:27.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RONDON98 has made the advancement [Dragonslayer]
+[21Feb2024 03:44:38.701] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/319, l='ServerLevel[world]', x=99.77, y=82.00, z=-3.58] died, message: 'Leatherworker hit the ground too hard'
+[21Feb2024 03:44:39.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabioxce was slain by Amphithere
+[21Feb2024 03:44:39.312] [Server thread/INFO] [tombstone/]: The player fabioxce has successfully been saved
+[21Feb2024 03:44:59.106] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:01.508] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:04.305] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:05.003] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:05.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RONDON98 was blown up by Death Worm
+[21Feb2024 03:45:05.420] [Server thread/INFO] [tombstone/]: The player RONDON98 has successfully been saved
+[21Feb2024 03:45:06.059] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /127.0.0.1 started
+[21Feb2024 03:45:10.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Teleported fabioxce to RONDON98]
+[21Feb2024 03:45:45.308] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:45.405] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:45.508] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:45.610] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:45.710] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:45.845] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:45.908] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:46.018] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:46.106] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:46.206] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:46.321] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:46.429] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:46.581] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:46.630] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:46.714] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:46.810] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:46.919] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:47.010] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:47.113] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:47.212] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:47.308] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:47.417] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:47.507] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:47.605] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:47.710] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:47.806] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:47.908] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:48.007] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:48.106] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:48.206] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:48.314] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:48.409] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:48.506] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:48.605] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:48.704] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:48.804] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:48.905] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:49.004] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:49.110] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:49.204] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:49.308] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:49.408] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:49.508] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:49.622] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:49.708] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:49.812] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:49.905] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:50.004] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:50.105] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:50.205] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:50.306] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:50.405] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:50.511] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:50.610] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:50.707] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:50.808] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:50.905] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:51.005] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:51.106] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:51.206] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:51.307] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:51.353] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:51.404] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:51.504] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:51.605] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:51.712] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:51.809] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:51.911] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:52.010] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:52.106] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:45:53.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RONDON98 has made the advancement [The Desert Swimmers]
+[21Feb2024 03:47:24.500] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:47:25.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RONDON98 was slain by Ghost
+[21Feb2024 03:47:25.961] [Server thread/INFO] [tombstone/]: The player RONDON98 has successfully been saved
+[21Feb2024 03:47:29.113] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:47:30.047] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:47:31.701] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:47:34.800] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:47:34.959] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.6677071594226107
+[21Feb2024 03:47:36.013] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.6745300673566198
+[21Feb2024 03:47:36.313] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.7547140843413762
+[21Feb2024 03:47:45.003] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:47:46.000] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:47:47.703] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:47:59.105] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[21Feb2024 03:48:08.165] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.6459715863793005
+[21Feb2024 03:48:12.865] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.2907236064131481
+[21Feb2024 03:48:13.820] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.32976617193751
+[21Feb2024 03:48:15.662] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.6453570607343622
+[21Feb2024 03:48:19.967] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.7537586859781119
+[21Feb2024 03:48:20.558] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.4371301127278163
+[21Feb2024 03:48:21.480] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.7139546557536554
+[21Feb2024 03:48:21.812] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.4389899135635222
+[21Feb2024 03:48:23.509] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.686863686882885
+[21Feb2024 03:48:23.615] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.6206597941079968
+[21Feb2024 03:48:23.806] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.3756020496568885
+[21Feb2024 03:48:23.915] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.29218984887755817
+[21Feb2024 03:48:24.211] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.39192810121896343
+[21Feb2024 03:48:24.770] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.30081621599918984
+[21Feb2024 03:48:24.913] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.4030023768264464
+[21Feb2024 03:48:25.027] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.41620790550632975
+[21Feb2024 03:48:25.055] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.41855677327484114
+[21Feb2024 03:48:25.108] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.419734934875928
+[21Feb2024 03:48:25.125] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.419734934875928
+[21Feb2024 03:48:25.358] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.4207201759100802
+[21Feb2024 03:49:50.667] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.32781084763041674
+[21Feb2024 03:49:54.678] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.2605915524299561
+[21Feb2024 03:49:54.774] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.38703947501670993
+[21Feb2024 03:49:54.822] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.43934383590973825
+[21Feb2024 03:49:54.863] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.48550045188853796
+[21Feb2024 03:49:54.926] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.5262008102656074
+[21Feb2024 03:49:54.942] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.5262008102656074
+[21Feb2024 03:49:55.177] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.2953484947812147
+[21Feb2024 03:49:58.962] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.4898123148768718
+[21Feb2024 03:49:59.066] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.5639440764050807
+[21Feb2024 03:49:59.122] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.5924645576014436
+[21Feb2024 03:49:59.176] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.6175823913484982
+[21Feb2024 03:49:59.211] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.6378439258278685
+[21Feb2024 03:49:59.271] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.6544371615524038
+[21Feb2024 03:49:59.460] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.3267279755110434
+[21Feb2024 03:49:59.510] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.4626126571517292
+[21Feb2024 03:49:59.578] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.2657152905412016
+[21Feb2024 03:49:59.710] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.3027332372566737
+[21Feb2024 03:49:59.773] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.3466865569199008
+[21Feb2024 03:49:59.812] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.3146451963886307
+[21Feb2024 03:49:59.925] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.3128069015594581
+[21Feb2024 03:50:00.211] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.3821219204065465
+[21Feb2024 03:50:00.276] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.3814701765328429
+[21Feb2024 03:50:00.293] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.3814701765328429
+[21Feb2024 03:50:00.417] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.38677106615323525
+[21Feb2024 03:50:00.467] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.3988643903543931
+[21Feb2024 03:50:05.336] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.5588060948437136
+[21Feb2024 03:50:07.829] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.7299062328513293
+[21Feb2024 03:50:08.622] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.2642290900531147
+[21Feb2024 03:50:20.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.4168195791741177
+[21Feb2024 03:50:22.729] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.5993923287896284
+[21Feb2024 03:50:23.475] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.5592563276981048
+[21Feb2024 03:50:24.129] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.7725952980069669
+[21Feb2024 03:50:24.935] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.5299898529320552
+[21Feb2024 03:51:37.270] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.4283413403974074
+[21Feb2024 03:51:38.817] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.4088867958937159
+[21Feb2024 03:51:39.384] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.412492070378836
+[21Feb2024 03:51:39.970] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.4143803847768669
+[21Feb2024 03:51:40.577] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.4150478181383421
+[21Feb2024 03:51:40.727] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.3103150054225855
+[21Feb2024 03:51:44.216] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.3474011167387462
+[21Feb2024 03:51:45.262] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.2990443869371165
+[21Feb2024 03:51:47.781] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.4120080803058207
+[21Feb2024 03:51:51.674] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.5569971575478653
+[21Feb2024 03:51:53.620] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.7656626870671743
+[21Feb2024 03:51:56.321] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.5622065036959553
+[21Feb2024 03:51:57.914] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.5582756934605821
+[21Feb2024 03:51:57.937] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.5582756934605821
+[21Feb2024 03:53:03.436] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.8280186904875366
+[21Feb2024 03:53:11.227] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.784463079855687
+[21Feb2024 03:53:21.472] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.5329681333695943
+[21Feb2024 03:53:22.720] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.7033398225045618
+[21Feb2024 03:53:22.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.7727642936869351
+[21Feb2024 03:53:22.962] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.7619343489434339
+[21Feb2024 03:53:23.168] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.7769892036265329
+[21Feb2024 03:53:23.659] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.4855956829682774
+[21Feb2024 03:53:23.691] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.4855956829682774
+[21Feb2024 03:53:24.272] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.2606683447389231
+[21Feb2024 03:53:25.015] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.743842730661367
+[21Feb2024 03:54:25.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.592756855616063
+[21Feb2024 03:54:28.365] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.8145957923099918
+[21Feb2024 03:54:29.058] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.6392536414956771
+[21Feb2024 03:54:30.016] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.7958854313319056
+[21Feb2024 03:54:30.538] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.8192346552177728
+[21Feb2024 03:54:31.014] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.831189797811765
+[21Feb2024 03:54:32.013] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.7731459076951072
+[21Feb2024 03:54:32.042] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.7731459076951072
+[21Feb2024 03:54:32.561] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.8028385014052861
+[21Feb2024 03:54:33.309] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.7888426395465272
+[21Feb2024 03:54:33.343] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.7888426395465272
+[21Feb2024 03:54:33.843] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.613739457719895
+[21Feb2024 03:54:34.713] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.7575587947720286
+[21Feb2024 03:54:34.741] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.7575587947720286
+[21Feb2024 03:54:35.521] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.5238897306384093
+[21Feb2024 03:54:36.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.5737055233266495
+[21Feb2024 03:54:37.217] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.7841793571114052
+[21Feb2024 03:54:38.021] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.34682866542809493
+[21Feb2024 03:54:39.118] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.6861150883518934
+[21Feb2024 03:54:39.720] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.795710175646098
+[21Feb2024 03:54:40.572] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.7183617898329504
+[21Feb2024 03:54:40.722] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.49545061212547
+[21Feb2024 03:54:41.258] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.73596445358622
+[21Feb2024 03:54:41.614] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.26919037257519624
+[21Feb2024 03:54:41.925] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.28462847568673755
+[21Feb2024 03:54:42.812] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.8329413476944183
+[21Feb2024 03:54:42.875] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.7562599557002326
+[21Feb2024 03:54:43.764] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.8203351908283973
+[21Feb2024 03:54:44.572] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.8110404206750189
+[21Feb2024 03:54:45.468] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.8415892062880928
+[21Feb2024 03:54:45.860] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.8277728594724779
+[21Feb2024 03:54:46.270] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.7562028504555297
+[21Feb2024 03:54:46.764] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.776815418078653
+[21Feb2024 03:54:46.827] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.8244878028232172
+[21Feb2024 03:54:47.470] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.7331230622136141
+[21Feb2024 03:54:47.509] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.6878690653047385
+[21Feb2024 03:54:48.359] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.38029409874611575
+[21Feb2024 03:54:49.008] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.4045339372704308
+[21Feb2024 03:54:49.044] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.4045339372704308
+[21Feb2024 03:54:50.868] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.6107904488734193
+[21Feb2024 03:54:51.468] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.7800250958489601
+[21Feb2024 03:54:52.260] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.8234180895394129
+[21Feb2024 03:54:53.471] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.5939002072763483
+[21Feb2024 03:54:53.868] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.5263550440354846
+[21Feb2024 03:54:55.822] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.8185035213267325
+[21Feb2024 03:54:56.820] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.8211984673028259
+[21Feb2024 03:54:57.627] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.8285707426063982
+[21Feb2024 03:54:58.536] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.8302964832489292
+[21Feb2024 03:55:13.918] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.7968305467116884
+[21Feb2024 03:55:14.677] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.8174811884839419
+[21Feb2024 03:55:15.381] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.8193468564071827
+[21Feb2024 03:55:23.463] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.8295427517564815
+[21Feb2024 03:55:25.540] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.830500697062918
+[21Feb2024 03:55:27.611] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.8305081757655534
+[21Feb2024 03:55:30.395] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.8300372607017638
+[21Feb2024 03:55:31.163] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.8304306164987925
+[21Feb2024 03:55:31.189] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.8304306164987925
+[21Feb2024 03:55:31.190] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.8304306164987925
+[21Feb2024 03:55:31.392] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.8301483175079827
+[21Feb2024 03:55:46.741] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of RONDON98) moved wrongly! 0.32430946827116114
+[21Feb2024 03:57:31.891] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.32773753454762483
+[21Feb2024 03:57:32.479] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.713211902882301
+[21Feb2024 03:57:54.931] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.5937050457057151
+[21Feb2024 03:57:55.383] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.7536789690787168
+[21Feb2024 03:58:15.284] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.5224952477655944
+[21Feb2024 03:58:15.737] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.7256741676461854
+[21Feb2024 04:00:33.955] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: fabioxce lost connection: Disconnected
+[21Feb2024 04:00:33.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabioxce left the game
+[21Feb2024 04:00:41.266] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: fabioxce[/190.84.227.28:52762] logged in with entity id 24681 at (-633.9418611142438, 71.0, 183.9763948688)
+[21Feb2024 04:00:41.273] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabioxce joined the game
+[21Feb2024 04:02:52.576] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.4154004773879025
+[21Feb2024 04:02:53.430] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.4138745379664693
+[21Feb2024 04:02:53.530] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.5800333001484068
+[21Feb2024 04:02:54.084] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.7588100770535152
+[21Feb2024 04:02:54.822] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.43910591708311564
+[21Feb2024 04:02:56.230] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.4086844162251894
+[21Feb2024 04:02:56.326] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.5019592672455749
+[21Feb2024 04:02:56.420] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.6044118181863636
+[21Feb2024 04:02:56.787] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.48544607772888004
+[21Feb2024 04:02:58.780] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.40215384417907885
+[21Feb2024 04:02:58.979] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Amphithere (vehicle of fabioxce) moved wrongly! 0.31984326914471134
+[21Feb2024 04:03:00.171] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.3870191846521304
+[21Feb2024 04:03:03.222] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.2591562116459378
+[21Feb2024 04:03:03.377] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.26043148473168726
+[21Feb2024 04:05:19.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabioxce has made the advancement [The Only Good Bug...]
+[21Feb2024 04:10:08.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <RONDON98> z
+[21Feb2024 04:10:09.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <RONDON98> zzzz
+[21Feb2024 04:10:10.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <RONDON98> zzz
+[21Feb2024 04:10:11.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <RONDON98> z
+[21Feb2024 04:10:12.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabioxce> zzzz
+[21Feb2024 04:10:13.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabioxce> zz
+[21Feb2024 04:10:13.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabioxce> z
+[21Feb2024 04:10:14.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabioxce> z
+[21Feb2024 04:10:14.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <fabioxce> z
+[21Feb2024 04:16:18.837] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Eustaquio (vehicle of fabioxce) moved wrongly! 0.4321482677710424
+[21Feb2024 04:16:19.286] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Eustaquio (vehicle of fabioxce) moved wrongly! 0.7014825412468036
+[21Feb2024 04:16:20.540] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Eustaquio (vehicle of fabioxce) moved wrongly! 0.7210187741971517
+[21Feb2024 04:16:23.340] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Eustaquio (vehicle of fabioxce) moved wrongly! 0.6177067631333659
+[21Feb2024 04:16:24.487] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Eustaquio (vehicle of fabioxce) moved wrongly! 0.8071490988239988
+[21Feb2024 04:16:25.511] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Eustaquio (vehicle of fabioxce) moved wrongly! 0.7672264560891411
+[21Feb2024 04:17:13.141] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Eustaquio (vehicle of fabioxce) moved wrongly! 0.823962970919403
+[21Feb2024 04:17:13.740] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Eustaquio (vehicle of fabioxce) moved wrongly! 0.8187574021873143
+[21Feb2024 04:17:40.160] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Eustaquio (vehicle of fabioxce) moved wrongly! 0.7856524899108376
+[21Feb2024 04:17:40.194] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Eustaquio (vehicle of fabioxce) moved wrongly! 0.7856524899108376
+[21Feb2024 04:17:52.356] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.8469593125813574
+[21Feb2024 04:17:52.386] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.8469593125813574
+[21Feb2024 04:17:53.143] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.84586962697429
+[21Feb2024 04:17:54.514] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.4099788063482409
+[21Feb2024 04:17:55.210] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.5789816090428157
+[21Feb2024 04:17:56.093] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.6480144930872187
+[21Feb2024 04:17:57.143] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.7766131104379738
+[21Feb2024 04:18:01.004] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.794526946419381
+[21Feb2024 04:18:01.034] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.794526946419381
+[21Feb2024 04:18:01.906] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.4856633107174997
+[21Feb2024 04:18:01.934] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.4856633107174997
+[21Feb2024 04:18:02.206] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.6681639242010603
+[21Feb2024 04:18:02.234] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.6681639242010603
+[21Feb2024 04:18:04.908] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.7505007538418407
+[21Feb2024 04:18:04.938] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.7505007538418407
+[21Feb2024 04:18:05.308] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.7901178173158336
+[21Feb2024 04:18:05.338] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.7901178173158336
+[21Feb2024 04:18:07.507] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.38879120202740436
+[21Feb2024 04:18:07.530] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.38879120202740436
+[21Feb2024 04:18:11.411] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.7134443858183908
+[21Feb2024 04:18:11.438] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.7134443858183908
+[21Feb2024 04:18:12.088] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.5490318818463868
+[21Feb2024 04:18:12.610] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.753194048090724
+[21Feb2024 04:18:14.009] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.4023957899809255
+[21Feb2024 04:18:14.860] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.7719267916768696
+[21Feb2024 04:18:15.916] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.7694602726485822
+[21Feb2024 04:18:16.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.8378345141898175
+[21Feb2024 04:18:18.355] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.7137009918589458
+[21Feb2024 04:18:18.808] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.7860116694210943
+[21Feb2024 04:18:19.010] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.26067255833570663
+[21Feb2024 04:18:19.308] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.5622451438409366
+[21Feb2024 04:18:20.418] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.6739002550789157
+[21Feb2024 04:18:20.810] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.3279131985814827
+[21Feb2024 04:18:21.922] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.5247875363021774
+[21Feb2024 04:18:22.412] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.7432434291206942
+[21Feb2024 04:18:23.586] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Eustaquio (vehicle of fabioxce) moved wrongly! 0.8012516967591187
+[21Feb2024 04:18:23.689] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Eustaquio (vehicle of fabioxce) moved wrongly! 0.8066639574188104
+[21Feb2024 04:18:23.804] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.8126986171879014
+[21Feb2024 04:18:23.916] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.8114655885298335
+[21Feb2024 04:18:25.068] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.4563873262279352
+[21Feb2024 04:18:25.122] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.5004930806487004
+[21Feb2024 04:18:25.178] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.5390651690176765
+[21Feb2024 04:18:25.178] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.5390651690176765
+[21Feb2024 04:18:26.412] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.48296246904875534
+[21Feb2024 04:18:27.605] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.4327442592751758
+[21Feb2024 04:18:27.851] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity EntityAmphithere['Eustaquio'/13894, l='ServerLevel[world]', x=-584.08, y=66.14, z=-43.50] died: Eustaquio was turned to ice by Ice Dragon
+[21Feb2024 04:18:28.491] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.4727563293226126
+[21Feb2024 04:18:28.811] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.661612520701777
+[21Feb2024 04:18:28.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabioxce was frozen by Ice Dragon
+[21Feb2024 04:18:28.910] [Server thread/INFO] [tombstone/]: The player fabioxce has successfully been saved
+[21Feb2024 04:18:29.809] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.8125597570265236
+[21Feb2024 04:18:30.806] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.39027371250576404
+[21Feb2024 04:18:30.843] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.39027371250576404
+[21Feb2024 04:18:30.843] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Patroclo (vehicle of RONDON98) moved wrongly! 0.39027371250576404
+[21Feb2024 04:18:44.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RONDON98 was turned to ice by Ice Dragon
+[21Feb2024 04:18:44.962] [Server thread/INFO] [tombstone/]: The player RONDON98 has successfully been saved
+[21Feb2024 04:20:56.755] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: fabioxce lost connection: Disconnected
+[21Feb2024 04:20:56.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: fabioxce left the game
+[21Feb2024 04:22:31.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RONDON98 has made the advancement [The Song of the Dragons]
+[21Feb2024 04:30:24.260] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.37799821741987216
+[21Feb2024 04:30:24.292] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.37799821741987216
+[21Feb2024 04:36:00.833] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8102050421862154
+[21Feb2024 04:36:02.683] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.6293653357995255
+[21Feb2024 04:36:02.982] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7443151605828752
+[21Feb2024 04:36:03.190] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7848511568792352
+[21Feb2024 04:36:05.227] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8188229921427878
+[21Feb2024 04:36:06.192] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.4717626467299529
+[21Feb2024 04:36:10.086] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8171579307442556
+[21Feb2024 04:36:11.040] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.6009189235761172
+[21Feb2024 04:36:12.826] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.6667999485980631
+[21Feb2024 04:36:13.685] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7226202638975792
+[21Feb2024 04:39:08.818] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.6836220245097007
+[21Feb2024 04:39:09.474] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.3265787037393533
+[21Feb2024 04:39:10.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7690752075132146
+[21Feb2024 04:39:11.271] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8041761034632523
+[21Feb2024 04:41:32.621] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.27505115824807086
+[21Feb2024 04:41:33.224] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.5519632509916955
+[21Feb2024 04:41:33.763] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.47171369130091917
+[21Feb2024 04:42:26.409] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.45648705137503065
+[21Feb2024 04:42:27.074] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.5165261775382001
+[21Feb2024 04:42:38.388] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.5663769140466894
+[21Feb2024 04:42:39.668] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.3862813647701767
+[21Feb2024 04:42:40.361] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.4101886614049647
+[21Feb2024 04:42:40.387] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.4101886614049647
+[21Feb2024 04:42:44.291] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.5248105175640259
+[21Feb2024 04:42:44.655] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7030234822434993
+[21Feb2024 04:42:44.687] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7030234822434993
+[21Feb2024 04:43:36.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RONDON98 was slain by Siren
+[21Feb2024 04:43:36.907] [Server thread/INFO] [tombstone/]: The player RONDON98 has successfully been saved
+[21Feb2024 04:50:29.427] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8010372259360338
+[21Feb2024 04:50:29.988] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.4196248631692186
+[21Feb2024 04:50:31.423] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8149233825896
+[21Feb2024 04:50:32.087] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8264507895676354
+[21Feb2024 04:50:33.587] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7958389823750011
+[21Feb2024 04:50:34.043] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8304458399740711
+[21Feb2024 04:50:40.219] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8304709175929661
+[21Feb2024 04:50:40.338] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.830479260964385
+[21Feb2024 04:51:19.316] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8254036767398968
+[21Feb2024 04:51:19.615] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8279907717150965
+[21Feb2024 04:51:19.639] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8279907717150965
+[21Feb2024 04:51:40.974] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7718238364638507
+[21Feb2024 04:51:43.010] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7088699039943789
+[21Feb2024 04:51:43.038] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7088699039943789
+[21Feb2024 04:51:44.318] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8024981608114683
+[21Feb2024 04:51:44.562] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8232394111456312
+[21Feb2024 04:51:44.589] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8232394111456312
+[21Feb2024 04:51:47.667] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7694074714535346
+[21Feb2024 04:51:47.694] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7694074714535346
+[21Feb2024 04:51:47.911] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8043165264996612
+[21Feb2024 04:51:47.938] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8043165264996612
+[21Feb2024 04:51:49.365] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7574054617361169
+[21Feb2024 04:51:49.515] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7836591805869336
+[21Feb2024 04:51:49.549] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7836591805869336
+[21Feb2024 04:51:49.559] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7836591805869336
+[21Feb2024 04:51:50.173] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8349323385605255
+[21Feb2024 04:51:50.212] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8349323385605255
+[21Feb2024 04:51:50.376] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8395012070090494
+[21Feb2024 04:51:52.858] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7557390712176782
+[21Feb2024 04:51:52.882] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7557390712176782
+[21Feb2024 04:51:53.107] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7532452469441041
+[21Feb2024 04:51:53.138] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7532452469441041
+[21Feb2024 04:51:54.364] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7537311502062347
+[21Feb2024 04:51:54.862] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.807902656248296
+[21Feb2024 04:51:54.894] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.807902656248296
+[21Feb2024 04:51:55.074] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8167639955981979
+[21Feb2024 04:54:34.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RONDON98 has made the advancement [Tie me to the Mast]
+[21Feb2024 04:55:38.839] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7235337022652675
+[21Feb2024 04:55:39.608] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8061351535383161
+[21Feb2024 04:55:39.635] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8061351535383161
+[21Feb2024 04:55:39.636] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8061351535383161
+[21Feb2024 04:55:48.715] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8270115680677518
+[21Feb2024 04:55:49.459] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8363974253617747
+[21Feb2024 04:55:49.783] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8287970581149541
+[21Feb2024 04:55:49.793] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8287970581149541
+[21Feb2024 04:55:50.641] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.36395128594018455
+[21Feb2024 04:55:57.155] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.3805777733900032
+[21Feb2024 04:55:57.194] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.3805777733900032
+[21Feb2024 04:55:58.111] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.7686705098735607
+[21Feb2024 04:57:24.892] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8223474286982819
+[21Feb2024 04:57:25.457] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8265516714528608
+[21Feb2024 04:57:25.494] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8265516714528608
+[21Feb2024 04:57:25.494] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8265516714528608
+[21Feb2024 04:59:43.783] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.8291933201187839
+[21Feb2024 05:03:33.773] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.287480602492428
+[21Feb2024 05:04:01.967] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hippocampus (vehicle of RONDON98) moved wrongly! 0.2866746981286208
+[21Feb2024 05:09:00.707] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: RONDON98 lost connection: Disconnected
+[21Feb2024 05:09:00.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: RONDON98 left the game
+[21Feb2024 05:46:37.693] [RCON Client /127.0.0.1 #2/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /127.0.0.1 shutting down
+[21Feb2024 05:57:33.053] [RCON Client /127.0.0.1 #3/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /127.0.0.1 shutting down
+[21Feb2024 14:26:54.981] [RCON Listener #1/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Client /127.0.0.1 started
+[21Feb2024 14:26:54.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Rcon: Stopping the server]
+[21Feb2024 14:26:54.982] [RCON Client /127.0.0.1 #4/INFO] [net.minecraft.server.rcon.thread.RconClient/]: Thread RCON Client /127.0.0.1 shutting down
+[21Feb2024 14:26:54.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[21Feb2024 14:26:54.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[21Feb2024 14:26:54.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[21Feb2024 14:26:55.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21Feb2024 14:26:55.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21Feb2024 14:26:55.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/insanetnt:destroyed
+[21Feb2024 14:26:55.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_bumblezone:the_bumblezone
+[21Feb2024 14:26:55.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21Feb2024 14:26:55.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21Feb2024 14:26:55.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21Feb2024 14:26:55.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (destroyed): All chunks are saved
+[21Feb2024 14:26:55.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_bumblezone): All chunks are saved
+[21Feb2024 14:26:55.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21Feb2024 14:26:55.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21Feb2024 14:26:55.552] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[21Feb2024 14:26:55.554] [Server thread/INFO] [net.minecraft.server.rcon.thread.GenericThread/]: Thread RCON Listener stopped
