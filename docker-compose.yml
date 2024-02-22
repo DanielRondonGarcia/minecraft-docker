@@ -7,7 +7,7 @@ services:
       EULA: "true"
       TYPE: "FORGE"
       DEBUG: "true"
-      MEMORY: "5G"
+      MEMORY: "15G"
       DIFFICULTY: "hard"
       MAX_PLAYERS: "10"
       MOTD: "Minecraft Rondón"
