@@ -48,7 +48,7 @@ services:
       mc:
         condition: service_healthy
     environment:
-      BACKUP_INTERVAL: "2h"
+      BACKUP_INTERVAL: "24h"
       PAUSE_IF_NO_PLAYERS: "true"
       RCON_HOST: mc
       RCON_PORT: "8000"
